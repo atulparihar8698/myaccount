@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myaccount-service
+spec:
+  selector:
+    app: myaccount-pod
+  ports:
+  - port: 5000
+    targetPort: 5000
+  type: LoadBalancer  

@@ -1,0 +1,38 @@
+{
+    "version": "1.0.0",
+    "name": "asp.net",
+    "private": true,
+    "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/preset-env": "^7.6.3",
+        "autoprefixer": "^9.6.1",
+        "clean-css": "^4.2.1",
+        "cssnano": "^4.1.10",
+        "datatables.net-bs4": "^1.10.20",
+        "del": "^5.1.0",
+        "font-awesome": "^4.7.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-load-plugins": "^2.0.1",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2",
+        "gulp-util": "^3.0.8",
+        "lodash": "^4.17.15",
+        "merge-stream": "^2.0.0",
+        "moment": "^2.24.0",
+        "mustache": "^3.1.0",
+        "store": "^2.0.12"
+    },
+    "dependencies": {
+        "@progress/kendo-ui": "^2019.3.1113",
+        "bootpag": "^1.0.7",
+        "chart.js": "^2.9.2",
+        "iframe-resizer": "^4.2.8",
+        "mdbootstrap": "^4.10.0"
+    }
+}

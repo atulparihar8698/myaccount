@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myaccount-deployment
+spec:
+  selector:
+    matchLabels:
+      app: myaccount-pod
+  replicas: 2    
+  template:
+    metadata:
+      labels:
+        app: myaccount-pod
+    spec:
+      containers:
+      - name: myaccount-container
+        image: myaccount:latest
+        imagePullPolicy: IfNotPresent
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "50m"
+        ports:
+        - containerPort: 5000
