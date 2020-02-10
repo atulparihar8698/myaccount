@@ -15,7 +15,7 @@ spec:
       containers:
       - name: myaccount-container
         image: myaccount:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         resources:
           limits:
             memory: "128Mi"
