@@ -12,9 +12,5 @@ node {
     docker.withRegistry('https://registry-1.docker.io/latest/','docker-hub') {
       dockerImage.push()
     }
-  }
-  stage('Deploy to kubernetes') {
-    dockerImage = docker.remove("atulparihar869813/myaccount:latest")
-  }  
-
+  } 
 }
