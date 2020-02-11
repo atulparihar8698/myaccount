@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myaccount-container
-        image: myaccount:latest
+        image: atulparihar869813/myaccount:latest
         imagePullPolicy: Always
         resources:
           limits:
