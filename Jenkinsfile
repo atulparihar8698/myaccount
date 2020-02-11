@@ -14,6 +14,6 @@ node {
     }
   } 
   stage('Deployment to kubernetes') {
-         sh 'https://github.com/atulparihar8698/myaccount/blob/master/init.sh'
+         sh 'bash ./init.sh'
   }
 }
