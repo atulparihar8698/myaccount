@@ -13,4 +13,9 @@ node {
       dockerImage.push()
     }
   } 
+  state('Deployment to kubernetes') {
+    sh ***
+      ./init.sh prod dtr.caleb.boxboat.net latest
+    ***
+  }
 }
