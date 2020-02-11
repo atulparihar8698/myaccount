@@ -14,6 +14,6 @@ node {
     }
   } 
   stage('Deployment to kubernetes') {
-         sh 'init.sh'
+         sh 'docker rmi -f atulparihar869813/myaccount:latest'
   }
 }
