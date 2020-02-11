@@ -14,7 +14,7 @@ node {
     }
   }
   stage('Deploy to kubernetes') {
-   sh 'kubectl delete deployments/atulparihar869813/myaccount:latest'
+    dockerImage = docker.remove("atulparihar869813/myaccount:latest")
   }  
 
 }
