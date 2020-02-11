@@ -2,7 +2,7 @@
 node {
 
   checkout scm
-  def dockerImage
+  def dockerImage 
 
   stage('Build image') {
     dockerImage = docker.build("atulparihar869813/myaccount:latest")
