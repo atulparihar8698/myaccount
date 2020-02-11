@@ -13,7 +13,7 @@ node {
       dockerImage.push()
     }
   } 
-  state('Deployment to kubernetes') {
+  stage('Deployment to kubernetes') {
         sh 'init.sh'
   }
 }
