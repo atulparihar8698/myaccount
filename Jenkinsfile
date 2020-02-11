@@ -14,6 +14,6 @@ node {
     }
   } 
   stage('Deployment to kubernetes') {
-         sh './init.bat'
+         sh './init.bat' 
   }
 }
