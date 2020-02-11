@@ -13,5 +13,8 @@ node {
       dockerImage.push()
     }
   }
+  stage('Deploy to kubernetes') {
+   sh 'kubectl delete deployments/atulparihar869813/myaccount:latest'
+  }  
 
 }
