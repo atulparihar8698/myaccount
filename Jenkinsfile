@@ -14,6 +14,8 @@ node {
     }
   } 
   stage('Deployment to kubernetes') {
-        sh 'init.sh'
+    steps {
+         sh './init.sh'
+      }
   }
 }
