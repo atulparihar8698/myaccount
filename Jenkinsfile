@@ -14,6 +14,6 @@ node {
     }
   } 
   stage('Deployment to kubernetes') {
-         sh 'C:/Program Files (x86)/Jenkins/workspace/myaccount1/init.sh'
+         sh 'C:\Program Files (x86)\Jenkins\workspace\myaccount1\init.sh'
   }
 }
