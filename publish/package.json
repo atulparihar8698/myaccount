@@ -31,7 +31,7 @@
     "dependencies": {
         "@progress/kendo-ui": "^2019.3.1113",
         "bootpag": "^1.0.7",
-        "chart.js": "^2.9.2",
+        "chart.js": "^2.9.4",
         "iframe-resizer": "^4.2.8",
         "mdbootstrap": "^4.10.0"
     }
